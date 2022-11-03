@@ -18,8 +18,8 @@
     }
 
     .header-logo {
-        width:100px;
         height:100px;
+        width:100px;
         float:left;
     }
 
@@ -35,9 +35,8 @@
     .header-menu li{
         display:inline-block;
         list-style:none;
-        line-height:100px;
-        padding-left:20px;
-        padding-right:20px;
+        padding-left:30px;
+        line-height:70px;
     }
 
     .header-menu li:hover {
@@ -48,6 +47,19 @@
     .menu-btn {
         display:none;
     }
+    
+    .menu-btn > i {
+        display: none;
+    }
+
+    #menu-checkbox {
+            display: none;
+    }
+        
+    .hamburger-li {
+        display:none;
+    }
+
 
 
 

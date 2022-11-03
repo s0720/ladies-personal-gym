@@ -1,3 +1,5 @@
+@media screen and (max-width:670px) {
+   
 header {
     height:70px;
 }
@@ -83,4 +85,10 @@ header {
 
 .hamburger-li {
     margin-bottom:10px;
+}
+
+.header-menu li{
+    display:none;
+}
+
 }
