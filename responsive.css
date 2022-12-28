@@ -33,9 +33,8 @@
         display:block;
     }
 
-    .recommend-item {
-        width: 200px;
-        height: 200px;
+    .recommend {
+        display:none;
     }
 
     .footer-menu img {
@@ -43,13 +42,9 @@
     }
 
     .footer-menu-2 {
-        text-align: center;
-        width:100%;
+        display:none;
     }
     
-    .footer-menu-2 li {
-        margin-top:10px;
-    }
     
 
 }
