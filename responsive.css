@@ -1,3 +1,55 @@
-@media screen and (max-width:670px) {
-   
+@media screen and (max-width:770px) {
+    .header-logo {
+        width:80px;
+        height:80px;
+        margin-top:10px;
+    }
+
+    .header-menu {
+        display:none;
+    }
+
+    .sp-header-menu {
+        display:block;
+    }
+
+    .top-item {
+        display:none;
+    }
+
+    .sec_inner_1 {
+        display:block;
+    }
+
+    .sp-top-item {
+        display:block;
+    }
+
+    .c-point table {
+        display: none;
+    }
+
+    .sp-c-point table {
+        display:block;
+    }
+
+    .recommend-item {
+        width: 200px;
+        height: 200px;
+    }
+
+    .footer-menu img {
+        display:none;
+    }
+
+    .footer-menu-2 {
+        text-align: center;
+        width:100%;
+    }
+    
+    .footer-menu-2 li {
+        margin-top:10px;
+    }
+    
+
 }

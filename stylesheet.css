@@ -12,6 +12,7 @@
         width:90%;
         height:100px;
         margin:0 auto;
+        padding-top:10px;
     }
 
     .header-logo {
@@ -110,6 +111,7 @@
         padding-top:30px;
     }
 
+
     h2 {
         text-align: center;
         font-weight: normal;
@@ -122,6 +124,23 @@
         text-align: center;
     }
 
+    .c-point h3 {
+        border-bottom:3px solid #db7093;
+        margin-bottom:30px;
+    }
+
+    .c-point table {
+        border-collapse: separate;
+        border-spacing:10px;
+        table-layout: fixed;
+    }
+
+    .c-point td{
+        vertical-align: top;
+        border:1px solid black;
+        padding:0px 10px;
+    }
+
     .point-item {
         width:31%;
         margin:0px 13px;
@@ -130,10 +149,6 @@
         height:450px;
         float:left;
         border:1px solid black;
-    }
-
-    .point-item h3 {
-        border-bottom:3px solid #db7093;
     }
 
     h3 {
@@ -251,6 +266,7 @@
         background-color:#f5f5f5;
         padding:40px 0px;
         border-right:3px solid white;
+        height:200px;
     }
 
     .location-item a {
@@ -331,6 +347,148 @@
         font-size: 22px;
         font-weight:bold;
     }
+
+
+
+
+    /*SP*/
+    .menu-btn > i {
+        display: inline-block;
+        padding: 12px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+    .menu-btn > i:hover {
+        background-color: #f3f4f6;
+    }
+
+    /* チェックボックスを非表示 */
+    #menu-checkbox {
+            display: none;
+    }
+
+    .nav-content {
+            background-color: white;
+            width: 100%;
+            max-width: 50%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            right: 0;
+            z-index: 50;
+            padding: 8px;
+            overflow: auto;
+            transform: translateX(100%); /* 画面外に配置 */
+            transition-duration: 300ms;
+        float:right;
+    }
+    .nav-menu ul {
+            list-style: none;
+            text-align: left;
+            letter-spacing: 1px;
+    }
+
+    .nav-menu ul li::first-letter {
+        font-size:20px;
+        color:#db7093;
+    }
+
+    .nav-menu li {
+        margin-bottom:20px;
+    }
+
+
+    .nav-menu li > a {
+            text-decoration: none;
+            color: #707070;
+            padding: 12px;
+            display: block;
+    }
+
+    .nav-menu li > a:hover {
+        background-color: #f3f4f6;
+    }
+    
+    /* チェックボックスがアクティブ状態の時、画面内に表示 */
+    #menu-checkbox:checked ~ .nav-content {
+            transform: translateX(0%);
+    }
+
+    #menu-checkbox:checked ~ .nav-close {
+            display: block;
+            opacity: 0.5;
+    }
+
+    .sp-header-menu {
+        display:none;
+        float:right;
+        line-height:100px;
+    }
+
+    .sec_inner_1 {
+        display:none;
+    }
+
+    .slick-slide img {
+        display:block;
+        width:100%;
+    }
+
+    .sp-top-item {
+        text-align:center;
+        margin-top:60px;
+    }
+
+    .sp-c-point table {
+        border-collapse: separate;
+        border-spacing:10px;
+        table-layout: fixed;
+        display:none;
+    }
+
+    .sp-c-point tr{
+        vertical-align: top;
+        border:1px solid black;
+    }
+
+    .sp-c-point th {
+        background-color: white;
+        border: 1px solid black;
+        padding: 0px 15px;
+    }
+
+    .sp-c-point p {
+        font-weight: normal;
+    }
+
+    .sp-c-point h3 {
+        border-bottom:3px solid #db7093;
+        margin-bottom:30px;
+    }
+
+    .sp-c-point table {
+        border-collapse: separate;
+        border-spacing:10px;
+        table-layout: fixed;
+    }
+
+    .sp-c-point td{
+        vertical-align: top;
+        border:1px solid black;
+        padding:0px 10px;
+    }
+
+    
+    
+
+    
+
+    
+
+
+    
+
+    
 
 
 
