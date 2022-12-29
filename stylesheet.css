@@ -494,6 +494,11 @@
         padding:0px 10px;
     }
 
+    .sp-footer-menu {
+        width:110%;
+        margin:0 auto;
+    }
+
     .sp-footer-menu a{
         display:block;
         text-align:center;
