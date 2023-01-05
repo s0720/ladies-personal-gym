@@ -49,5 +49,9 @@
         display: inline-block;
         margin-bottom: 10px;
     }
+    
+    .sp-footer-menu {
+        display:block;
+    }
 
 }
